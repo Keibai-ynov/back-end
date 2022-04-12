@@ -1,0 +1,19 @@
+{
+    "Product":{
+        "title": "La joconde",
+        "description":"Une oeuvre réalisé par Léonard De Vinci",
+        "initialPrice":16000000,
+        "image":"http:/uneimage.jpeg"
+    },
+    "startDate":"21-02-2022",
+    "endDate":"28-02-2022",
+    "owner":{ 
+        // l'utilisateur à l'origine de l'enchère
+    },
+    "lasBid":{
+        "mount":190000, //le montant de la dernière enchère
+        "user":{
+            //utilisateur ayant fait la dernière enchère
+        }
+    }
+}

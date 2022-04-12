@@ -1,0 +1,44 @@
+<html>
+
+	<head>
+        <style>
+            ul,li{
+                width: 100%;
+            }
+            li{
+                list-style: none;
+                display: flex;                
+            }
+            label{
+                font-weight: 600;
+                width: 15%;
+            }
+            p{
+                margin: 0;
+            }
+        </style>
+	</head>
+	<body>
+		<div style="margin:0 auto;max-width:600px; heigth:100%">
+			<p>Message from {{name}}, <br><br>
+				message: <br>
+                {{message}}
+			</p>
+		</br></br>
+		<p>
+			We can contact him by:
+		</p><br>
+        <ul>
+            <li>
+                <label for="">Mail:</label>
+                <p>{{mail}}</p>
+            </li>
+            <li>
+                <label for="">Phone:</label>
+                <p>{{phone}}</p>
+            </li>
+        </ul>
+
+		</div>
+	</body>
+</html>

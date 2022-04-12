@@ -1,0 +1,18 @@
+{
+    
+    "lastname":"Marin",
+    "firstname":"Nicolas",
+    "email":"admin@admin.com",
+    "password":"Un mot de passe quelconque",
+    "adress":{
+        "fullAdress":"183 rue Saint-Charles",
+        "zipcode":75015,
+        "city":"Paris",
+    },
+    "phoneNumber":"0667096850",
+    "auctions":[
+        ... //une enchère
+    ],
+    "isAdmin":true
+    
+}
